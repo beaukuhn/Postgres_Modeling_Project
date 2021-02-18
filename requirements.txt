@@ -1,0 +1,4 @@
+notebook
+glob2
+psycopg2
+pandas
