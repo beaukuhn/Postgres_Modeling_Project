@@ -35,8 +35,8 @@ At the terminal, type `pip install -r requirements.txt`.
 #### Run
 To run the code, begin with entering `python create_tables.py` on the commandline, followed by `python etl.py`.
 
-##### Jupyter Notebook
+#### Jupyter Notebook
 At the command line, enter `jupyter notebook`. Then, at a browser, type the URL http://localhost:8888. This will open the Jupyter Notebook interface, which allows easy access to notebook files.
 
-##### Testing
+#### Testing
 Data must be first inserted into the database. For example, this can be done by running the Jupyter Notebook file `etl.ipynb`, followed by `test.ipynb`. 
