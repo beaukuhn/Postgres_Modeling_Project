@@ -1,11 +1,11 @@
 # Project
 Data Modeling with Postgres
 
-##### Description
+#### Description
 Sparkify has created a new music streaming app and wants to analyze which songs their users are listening to.
 This code implements a schema for modeling their json data along with an ETL pipeline.
 
-##### Design
+#### Design
 A star schema design pattern was chosen, for Sparkify wants to analyze events -- songplays -- along with their affiliated models for granularity.
 
     Fact Table:
@@ -19,7 +19,7 @@ A star schema design pattern was chosen, for Sparkify wants to analyze events --
     
 A simple ETL pipeline is used for data ingestion.
 
-##### Contents
+#### Contents
 
     data - directory containing pertinent project data 
     create_tables.py - script for creating SQL tables
@@ -29,10 +29,10 @@ A simple ETL pipeline is used for data ingestion.
     sql_queries.py - script that defines project schema and affiliated query structure
     test.ipynb - jupyter notebook for exploring project testing
 
-##### Installation
+#### Installation
 At the terminal, type `pip install -r requirements.txt`.
 
-##### Run
+#### Run
 To run the code, begin with entering `python create_tables.py` on the commandline, followed by `python etl.py`.
 
 ##### Jupyter Notebook
